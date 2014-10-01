@@ -41,6 +41,6 @@ def install_common(betTypeFactory):
 
         globals()['ah2_m{}'.format(short_name)] = betTypeFactory(
             name='HcpTeam2BT',
-            team1Hcp=float(decimal_goals),
+            team1Hcp=-float(decimal_goals),
             back=True
         )

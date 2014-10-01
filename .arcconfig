@@ -1,0 +1,5 @@
+{
+  "phabricator.uri": "http://phabricator.cloud.footballradar.net",
+  "repository.callsign": "THRU",
+  "arc.land.onto.default": "master"
+}

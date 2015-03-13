@@ -14,7 +14,7 @@ from . import compile
 
 def prepare_thrift(thrift_filename):
     thrift_dir = compile.compile_thrift(thrift_filename)
-    sys.path.append(thrift_dir)
+    sys.path.insert(0, thrift_dir)
 
 
 def connect(zk, service_mode, service_name):
